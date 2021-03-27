@@ -191,7 +191,7 @@ class QuillEditor extends StatefulWidget {
       this.embedBuilder =
           kIsWeb ? _defaultEmbedBuilderWeb : _defaultEmbedBuilder,
       Key? key,
-      }) : super(key: key)
+      }) : super(key: key);
 
   factory QuillEditor.basic(
       {required QuillController controller, required bool readOnly}) {
